@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     "The premier directory of top-rated mortgage companies nationwide. Get your company listed and reach homebuyers, homeowners, and investors actively searching for financing solutions.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://topmortgagecompanies.com"),
   icons: {
-    icon: "/document.png",
-    shortcut: "/document.png",
-    apple: "/document.png",
+    icon: "/money.svg",
+    shortcut: "/money.svg",
+    apple: "/money.svg",
   },
   openGraph: {
     type: "website",

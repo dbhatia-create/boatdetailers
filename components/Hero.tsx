@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TrendingUp, Home } from "lucide-react";
+import { Home } from "lucide-react";
 import Button from "./Button";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
@@ -82,20 +82,6 @@ export default function Hero() {
                   </div>
                 </div>
 
-                {/* Floating stat card */}
-                <div className="absolute -left-8 bottom-32 z-30 rounded-xl border border-white/10 bg-navy/90 backdrop-blur-md p-4 shadow-xl pointer-events-none hidden sm:flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal/20 border border-teal/40">
-                    <TrendingUp className="h-5 w-5 text-teal" />
-                  </div>
-                  <div>
-                    <p className="text-xs text-teal uppercase tracking-widest font-semibold mb-0.5">
-                      Top Rated
-                    </p>
-                    <p className="text-sm font-medium text-white">
-                      Nationwide Visibility
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </FadeIn>

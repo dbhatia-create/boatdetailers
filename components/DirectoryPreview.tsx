@@ -29,7 +29,7 @@ function SiteNav() {
     <div className="bg-navy text-white px-3 py-2 sm:px-4 flex items-center gap-4">
       <AlignLeft className="h-4 w-4 text-white md:hidden" />
       <div className="flex items-center gap-1.5">
-        <Image src="/document.png" alt="" width={16} height={16} className="h-4 w-4 object-contain" />
+        <Image src="/money.svg" alt="" width={16} height={16} className="h-4 w-4 object-contain" />
         <span className="flex flex-col items-center">
           <span className="text-white text-xs font-bold leading-none">TopMortgageCompanies<span className="text-teal">.com</span></span>
           <span className="text-[7px] text-white/40 tracking-widest uppercase leading-none mt-0.5">Visibility · Credibility · Growth</span>

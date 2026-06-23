@@ -10,13 +10,13 @@ export default function AwardsDinner() {
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-teal via-transparent to-transparent pointer-events-none" />
 
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left: plaque */}
           <FadeIn direction="left">
             <div className="flex justify-center lg:justify-start">
-              <div className="relative">
+              <div className="relative w-full">
                 <div className="absolute -inset-6 bg-teal/10 rounded-3xl blur-2xl" />
-                <div className="relative w-full max-w-lg">
+                <div className="relative w-full">
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10 inline-flex items-center gap-2 justify-center px-4 py-1.5 bg-teal text-white font-bold text-[10px] tracking-widest uppercase rounded-full shadow-md whitespace-nowrap">
                     Limited Time: Apply Today
                   </div>
